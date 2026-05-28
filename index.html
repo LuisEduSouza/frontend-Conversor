@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de Bases AOC</title>
+</head>
+
+<body>
+    <h1>CONVERSOR DE BASES NUMÉRICAS</h1>
+    <form action="">
+        <input type="text" id="entrada" required placeholder="Digite o número inicial" />
+        <select name="" id="baseOrigem" required>
+            <option value="">Selecione a base</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="16">16</option>
+        </select>
+        <select name="" id="baseFinal" required>
+            <option value="">Selecione a base final</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="16">16</option>
+        </select>
+        <label>
+            <input type="radio" name="servidor" value="typescript" required>
+            Typescript
+            <input type="radio" name="servidor" value="cs" required>
+            C#
+        </label>
+        <input type="submit" value="CONVERTER" id="btnConversao">
+    </form>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
