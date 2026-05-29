@@ -46,6 +46,21 @@ form {
     border-color: #2563eb;
 }
 
+label{
+    font-family: "Segoe UI", sans-serif;
+    font-weight: bold;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.ts{
+    color: #3178c6;
+}
+
+.cs{
+    color: #68217a;
+}
+
 #btnConversao {
     background-color: #2563eb;
     color: white;
